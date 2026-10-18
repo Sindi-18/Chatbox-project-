@@ -1,0 +1,18 @@
+{
+  "group_id": "G018",
+  "subject": "Computer Science",
+  "repository": "https://github.com/Sindi-18/Chatbox-project-.git",
+  "data_dir": "data",
+  "books_dir": "computer science books",
+  "manifest_path": "data/book_manifest.json",
+  "chunks_path": "data/chunks.json",
+  "index_path": "data/vector_index.npz",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "chunk_size_words": 300,
+  "chunk_overlap_words": 40,
+  "top_k": 5,
+  "similarity_threshold": 0.25,
+  "abstention_message": "Insufficient evidence in the assigned textbooks to answer this question.",
+  "generator_model": "google/flan-t5-base"
+}

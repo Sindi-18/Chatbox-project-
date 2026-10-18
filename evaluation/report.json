@@ -1,0 +1,160 @@
+{
+  "group_id": "G018",
+  "subject": "Computer Science",
+  "date_evaluated": "2026-10-18 19:11:18",
+  "hardware_environment": {
+    "platform": "Windows 11 / x86_64",
+    "processor": "Multi-core CPU",
+    "memory": "8-16 GB Standard Student Laptop Environment",
+    "runtime": "Python 3.13"
+  },
+  "summary_metrics": {
+    "total_questions_evaluated": 40,
+    "in_domain_questions": 34,
+    "out_of_domain_abstention_questions": 6,
+    "retrieval_recall_at_5_pct": 91.18,
+    "citation_traceability_pct": 100.0,
+    "abstention_accuracy_pct": 100.0,
+    "average_latency_ms": 12.4
+  },
+  "quality_gates": {
+    "minimum_books_manifested": {
+      "target": ">= 15",
+      "actual": 18,
+      "status": "PASSED"
+    },
+    "citation_traceability": {
+      "target": "100%",
+      "actual": "100.0%",
+      "status": "PASSED"
+    },
+    "retrieval_recall_at_5": {
+      "target": ">= 80%",
+      "actual": "91.18%",
+      "status": "PASSED"
+    },
+    "abstention_quality": {
+      "target": ">= 90%",
+      "actual": "100.0%",
+      "status": "PASSED"
+    }
+  },
+  "category_breakdown": {
+    "factual": {
+      "total": 17,
+      "correct": 15
+    },
+    "reasoning": {
+      "total": 8,
+      "correct": 8
+    },
+    "formula": {
+      "total": 5,
+      "correct": 4
+    },
+    "cross_book": {
+      "total": 2,
+      "correct": 2
+    },
+    "citation_check": {
+      "total": 2,
+      "correct": 2
+    },
+    "abstention": {
+      "total": 6,
+      "correct": 6
+    }
+  },
+  "sample_detailed_results": [
+    {
+      "question_id": "Q001",
+      "category": "factual",
+      "question": "What is an algorithm and what properties must it possess?",
+      "success": false,
+      "latency_ms": 189.88,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q002",
+      "category": "factual",
+      "question": "What is time complexity and how is Big O notation used?",
+      "success": true,
+      "latency_ms": 9.2,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q003",
+      "category": "reasoning",
+      "question": "Why is divide-and-conquer effective for sorting algorithms such as merge sort?",
+      "success": true,
+      "latency_ms": 9.82,
+      "insufficient_evidence": true,
+      "citations_returned": 0
+    },
+    {
+      "question_id": "Q004",
+      "category": "formula",
+      "question": "What is the recurrence relation for the standard binary search algorithm?",
+      "success": true,
+      "latency_ms": 10.3,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q005",
+      "category": "factual",
+      "question": "What are logic gates and how do AND and OR gates differ?",
+      "success": true,
+      "latency_ms": 15.47,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q006",
+      "category": "factual",
+      "question": "What is instruction pipelining in modern computer architecture?",
+      "success": true,
+      "latency_ms": 12.1,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q007",
+      "category": "reasoning",
+      "question": "What causes pipeline hazards and how can data hazards be resolved?",
+      "success": true,
+      "latency_ms": 9.7,
+      "insufficient_evidence": false,
+      "citations_returned": 1
+    },
+    {
+      "question_id": "Q008",
+      "category": "factual",
+      "question": "What are the primary raster graphics primitives in computer graphics?",
+      "success": true,
+      "latency_ms": 8.98,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q009",
+      "category": "formula",
+      "question": "What transformation matrix represents 2D homogeneous translation?",
+      "success": true,
+      "latency_ms": 4.43,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    },
+    {
+      "question_id": "Q010",
+      "category": "factual",
+      "question": "What is an operational amplifier and what are ideal op-amp characteristics?",
+      "success": true,
+      "latency_ms": 9.08,
+      "insufficient_evidence": false,
+      "citations_returned": 3
+    }
+  ]
+}

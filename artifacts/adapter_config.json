@@ -1,0 +1,23 @@
+{
+  "base_model_name_or_path": "google/flan-t5-base",
+  "base_model_revision": "79f33d5d799f230e70a6c764a85859187ec970d3",
+  "peft_type": "LORA",
+  "task_type": "SEQ_2_SEQ_LM",
+  "r": 8,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q",
+    "v"
+  ],
+  "bias": "none",
+  "modules_to_save": null,
+  "group_id": "G018",
+  "subject": "Computer Science",
+  "trained_on": "18 Computer Science Textbooks Grounded Passage Benchmark",
+  "merging_compatibility": {
+    "compatible_base_models": ["google/flan-t5-base"],
+    "linear_combination_equation": "W_merged = W_0 + sum(alpha_i * delta_W_i)",
+    "router_selection_supported": true
+  }
+}

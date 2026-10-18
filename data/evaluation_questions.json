@@ -1,0 +1,362 @@
+[
+  {
+    "question_id": "Q001",
+    "category": "factual",
+    "question": "What is an algorithm and what properties must it possess?",
+    "expected_book_id": "G018_BOOK_009",
+    "expected_topic": "Algorithms",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "An algorithm is a finite, well-defined sequence of computational steps that transforms an input into an output, possessing finiteness, definiteness, and correctness."
+  },
+  {
+    "question_id": "Q002",
+    "category": "factual",
+    "question": "What is time complexity and how is Big O notation used?",
+    "expected_book_id": "G018_BOOK_009",
+    "expected_topic": "Algorithms & Complexity",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Time complexity measures computational execution time as a function of input size; Big O notation describes the asymptotic upper bound on growth rate."
+  },
+  {
+    "question_id": "Q003",
+    "category": "reasoning",
+    "question": "Why is divide-and-conquer effective for sorting algorithms such as merge sort?",
+    "expected_book_id": "G018_BOOK_009",
+    "expected_topic": "Divide and Conquer",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Divide-and-conquer breaks a large problem into smaller subproblems of identical structure, solves them recursively, and combines the results in linear time, yielding O(n log n) efficiency."
+  },
+  {
+    "question_id": "Q004",
+    "category": "formula",
+    "question": "What is the recurrence relation for the standard binary search algorithm?",
+    "expected_book_id": "G018_BOOK_009",
+    "expected_topic": "Recurrences",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "T(n) = T(n/2) + O(1), which solves to O(log n) by the Master Theorem."
+  },
+  {
+    "question_id": "Q005",
+    "category": "factual",
+    "question": "What are logic gates and how do AND and OR gates differ?",
+    "expected_book_id": "G018_BOOK_001",
+    "expected_topic": "Digital Logic",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Logic gates are fundamental building blocks of digital circuits. An AND gate outputs true only if all inputs are true, while an OR gate outputs true if at least one input is true."
+  },
+  {
+    "question_id": "Q006",
+    "category": "factual",
+    "question": "What is instruction pipelining in modern computer architecture?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Computer Architecture",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Instruction pipelining is an implementation technique where multiple instructions are overlapped in execution across consecutive stages (fetch, decode, execute, memory, writeback)."
+  },
+  {
+    "question_id": "Q007",
+    "category": "reasoning",
+    "question": "What causes pipeline hazards and how can data hazards be resolved?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Computer Architecture Hazards",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Hazards arise when an instruction cannot execute in its designated clock cycle due to structural conflicts, data dependencies, or control flow; data hazards can be resolved via forwarding or stalls."
+  },
+  {
+    "question_id": "Q008",
+    "category": "factual",
+    "question": "What are the primary raster graphics primitives in computer graphics?",
+    "expected_book_id": "G018_BOOK_002",
+    "expected_topic": "Computer Graphics",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Raster graphics primitives primarily consist of pixels, points, lines, polygons, and filled regions rendered onto a discrete pixel grid."
+  },
+  {
+    "question_id": "Q009",
+    "category": "formula",
+    "question": "What transformation matrix represents 2D homogeneous translation?",
+    "expected_book_id": "G018_BOOK_002",
+    "expected_topic": "Graphics Transformations",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "A 3x3 matrix with [1 0 dx; 0 1 dy; 0 0 1] in homogeneous coordinates."
+  },
+  {
+    "question_id": "Q010",
+    "category": "factual",
+    "question": "What is an operational amplifier and what are ideal op-amp characteristics?",
+    "expected_book_id": "G018_BOOK_014",
+    "expected_topic": "Electronic Circuits",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "An operational amplifier is a high-gain DC-coupled voltage amplifier with differential inputs. Ideal characteristics include infinite open-loop gain, infinite input impedance, zero output impedance, and infinite bandwidth."
+  },
+  {
+    "question_id": "Q011",
+    "category": "reasoning",
+    "question": "Why is negative feedback employed in linear operational amplifier circuits?",
+    "expected_book_id": "G018_BOOK_014",
+    "expected_topic": "Op-Amp Feedback",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Negative feedback stabilizes circuit gain, broadens frequency bandwidth, reduces non-linear distortion, and makes circuit operation dependent on external passive components rather than intrinsic op-amp parameters."
+  },
+  {
+    "question_id": "Q012",
+    "category": "factual",
+    "question": "What are the core components of an enterprise Information System?",
+    "expected_book_id": "G018_BOOK_003",
+    "expected_topic": "Information Systems",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "The core components of an information system are hardware, software, data, people, and business processes."
+  },
+  {
+    "question_id": "Q013",
+    "category": "reasoning",
+    "question": "How do relational databases maintain referential integrity?",
+    "expected_book_id": "G018_BOOK_003",
+    "expected_topic": "Databases",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Relational databases enforce referential integrity using primary key and foreign key constraints, ensuring that references between related tables remain valid and preventing orphaned records."
+  },
+  {
+    "question_id": "Q014",
+    "category": "factual",
+    "question": "What is mutable vs immutable in Python data types?",
+    "expected_book_id": "G018_BOOK_004",
+    "expected_topic": "Python Programming",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Mutable types (like lists, dictionaries, and sets) can be altered in place after creation, whereas immutable types (like integers, floats, strings, and tuples) cannot be modified after instantiation."
+  },
+  {
+    "question_id": "Q015",
+    "category": "reasoning",
+    "question": "What is the difference between a shallow copy and a deep copy in Python?",
+    "expected_book_id": "G018_BOOK_004",
+    "expected_topic": "Python Data Structures",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "A shallow copy constructs a new compound object but inserts references into it to the original child objects, while a deep copy constructs a new object and recursively inserts copies of the child objects."
+  },
+  {
+    "question_id": "Q016",
+    "category": "factual",
+    "question": "What is the purpose of heuristic search algorithms in Artificial Intelligence?",
+    "expected_book_id": "G018_BOOK_005",
+    "expected_topic": "Artificial Intelligence",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Heuristic search algorithms use problem-specific domain knowledge (heuristics) to estimate distance to goal states, pruning the search space to find solutions efficiently without exhaustive enumeration."
+  },
+  {
+    "question_id": "Q017",
+    "category": "formula",
+    "question": "What is the evaluation function formula for the A* search algorithm?",
+    "expected_book_id": "G018_BOOK_005",
+    "expected_topic": "AI Search",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "f(n) = g(n) + h(n), where g(n) is the exact cost from start to node n, and h(n) is the admissible heuristic estimate of the cost from node n to the goal."
+  },
+  {
+    "question_id": "Q018",
+    "category": "factual",
+    "question": "What is modular programming and why are functions important?",
+    "expected_book_id": "G018_BOOK_006",
+    "expected_topic": "Programming Fundamentals",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Modular programming subdivides a computer program into separate, independent subprograms or functions to foster code reusability, readability, abstraction, and maintainability."
+  },
+  {
+    "question_id": "Q019",
+    "category": "factual",
+    "question": "How does an inverted index function in information retrieval and search engines?",
+    "expected_book_id": "G018_BOOK_017",
+    "expected_topic": "Information Retrieval",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "An inverted index maps each distinct term to a postings list of documents and positions where the term appears, enabling sub-second search querying across millions of documents."
+  },
+  {
+    "question_id": "Q020",
+    "category": "formula",
+    "question": "What is the mathematical formulation of TF-IDF weighting?",
+    "expected_book_id": "G018_BOOK_017",
+    "expected_topic": "Search Engines & NLP",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "TF-IDF(t, d, D) = TF(t, d) * log(N / DF(t)), balancing term frequency in a document against document frequency across the entire corpus."
+  },
+  {
+    "question_id": "Q021",
+    "category": "factual",
+    "question": "What is an equivalence relation in discrete mathematics?",
+    "expected_book_id": "G018_BOOK_018",
+    "expected_topic": "Discrete Mathematics",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "An equivalence relation is a binary relation that satisfies three fundamental axioms: reflexivity (a ~ a), symmetry (if a ~ b then b ~ a), and transitivity (if a ~ b and b ~ c then a ~ c)."
+  },
+  {
+    "question_id": "Q022",
+    "category": "reasoning",
+    "question": "How does mathematical induction prove a statement for all natural numbers?",
+    "expected_book_id": "G018_BOOK_018",
+    "expected_topic": "Mathematical Induction",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "By establishing a base case P(1) as true, and proving the inductive step: that for any arbitrary k >= 1, if P(k) holds (inductive hypothesis), then P(k+1) must also hold."
+  },
+  {
+    "question_id": "Q023",
+    "category": "cross_book",
+    "question": "How does computer architecture pipelining compare with modular programming abstraction?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Systems Design & Modular Programming",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Both architectural pipelining and modular programming decouple large complex tasks into standardized stages or interfaces with clearly bounded inputs and outputs, maximizing throughput and reducing cognitive complexity."
+  },
+  {
+    "question_id": "Q024",
+    "category": "cross_book",
+    "question": "How do relational database indexes relate to search engine inverted indexes?",
+    "expected_book_id": "G018_BOOK_017",
+    "expected_topic": "Data Systems Comparison",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Both index structures provide logarithmic or constant-time lookups by maintaining secondary pointer mappings to record identifiers, though relational B-trees optimize for exact/range matches while inverted indexes optimize for full-text keyword intersections."
+  },
+  {
+    "question_id": "Q025",
+    "category": "citation_check",
+    "question": "In which chapter or section is asymptotic Big O notation introduced in the algorithms text?",
+    "expected_book_id": "G018_BOOK_009",
+    "expected_topic": "Algorithms Citation Check",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Asymptotic analysis and Big O notation are established in the fundamental analysis chapters."
+  },
+  {
+    "question_id": "Q026",
+    "category": "abstention",
+    "question": "Who won the FIFA World Cup soccer championship in 1994?",
+    "expected_book_id": null,
+    "expected_topic": "Sports History",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q027",
+    "category": "abstention",
+    "question": "What is the best recipe for baking chocolate chip cookies at home?",
+    "expected_book_id": null,
+    "expected_topic": "Culinary Baking",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q028",
+    "category": "abstention",
+    "question": "What are the clinical symptoms and pharmaceutical treatments for asthma?",
+    "expected_book_id": null,
+    "expected_topic": "Medicine & Healthcare",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q029",
+    "category": "abstention",
+    "question": "What was the capital of the Byzantine Empire during the 8th century?",
+    "expected_book_id": null,
+    "expected_topic": "Ancient World History",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q030",
+    "category": "abstention",
+    "question": "How do you play acoustic guitar chords for a folk song?",
+    "expected_book_id": null,
+    "expected_topic": "Music & Instruments",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q031",
+    "category": "factual",
+    "question": "What is virtual memory and how does page table translation work?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Operating Systems & Memory",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Virtual memory provides an idealized, private address space per process; the memory management unit uses page tables to translate virtual addresses into physical addresses."
+  },
+  {
+    "question_id": "Q032",
+    "category": "factual",
+    "question": "What is an XML document and how is it structured in Web Data Management?",
+    "expected_book_id": "G018_BOOK_008",
+    "expected_topic": "Web Data Management",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "An XML document is a hierarchical, semi-structured tree of elements, attributes, and text nodes with a single root element satisfying well-formedness rules."
+  },
+  {
+    "question_id": "Q033",
+    "category": "reasoning",
+    "question": "Why is caching critical for CPU performance in computer architecture?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Memory Hierarchy & Caching",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Caching exploits spatial and temporal locality to store frequently accessed data in fast SRAM close to the processor, bridging the multi-order-of-magnitude latency gap to main DRAM."
+  },
+  {
+    "question_id": "Q034",
+    "category": "formula",
+    "question": "What is the formula for average memory access time (AMAT)?",
+    "expected_book_id": "G018_BOOK_010",
+    "expected_topic": "Computer Architecture Formulas",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "AMAT = Hit Time + (Miss Rate * Miss Penalty)."
+  },
+  {
+    "question_id": "Q035",
+    "category": "factual",
+    "question": "What is the Agile software development philosophy?",
+    "expected_book_id": "G018_BOOK_007",
+    "expected_topic": "Software Engineering",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Agile is an iterative software development approach emphasizing rapid delivery of working software, cross-functional collaboration, customer feedback, and flexibility to adapt to change."
+  },
+  {
+    "question_id": "Q036",
+    "category": "factual",
+    "question": "What is depth buffering (Z-buffering) in 3D graphics rendering?",
+    "expected_book_id": "G018_BOOK_002",
+    "expected_topic": "Computer Graphics",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Z-buffering is a hidden-surface removal algorithm that tracks the depth coordinate of each pixel to ensure only the closest visible surfaces are drawn."
+  },
+  {
+    "question_id": "Q037",
+    "category": "reasoning",
+    "question": "How do flip-flops maintain state in digital circuits?",
+    "expected_book_id": "G018_BOOK_001",
+    "expected_topic": "Sequential Logic",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "Flip-flops maintain state using feedback loops between cross-coupled gates that latch onto a stable binary value until triggered by a clock edge."
+  },
+  {
+    "question_id": "Q038",
+    "category": "factual",
+    "question": "What is the role of an operating system kernel?",
+    "expected_book_id": "G018_BOOK_015",
+    "expected_topic": "Operating Systems",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "The kernel is the core component that manages system resources including processor scheduling, memory management, device drivers, and system calls."
+  },
+  {
+    "question_id": "Q039",
+    "category": "abstention",
+    "question": "How do you repair a broken timing belt on a 2012 Honda Civic engine?",
+    "expected_book_id": null,
+    "expected_topic": "Automotive Repair",
+    "expected_insufficient_evidence": true,
+    "reference_answer": "Insufficient evidence in the assigned textbooks to answer this question."
+  },
+  {
+    "question_id": "Q040",
+    "category": "citation_check",
+    "question": "Verify the textbook passage discussing Python list comprehensions and syntax.",
+    "expected_book_id": "G018_BOOK_004",
+    "expected_topic": "Python Syntax Verification",
+    "expected_insufficient_evidence": false,
+    "reference_answer": "List comprehensions offer a concise syntax [expr for item in iterable if condition] as documented in Python programming textbooks."
+  }
+]
