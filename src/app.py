@@ -253,8 +253,7 @@ with tab_manifest:
                     "Permissions": b["permission_status"]
                 }
                 for b in manifest
-            ],
-            use_container_width=True
+            ]
         )
     else:
         st.info("Manifest has not been loaded yet. Run `python src/ingest.py` to generate it.")
