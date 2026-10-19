@@ -28,7 +28,7 @@ import streamlit as st
 # Configure page layout
 st.set_page_config(
     page_title="CS Transformer Chatbot | Group G018",
-    page_icon="🤖",
+    page_icon="🦆",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -36,32 +36,78 @@ st.set_page_config(
 # Custom CSS for styling
 st.markdown("""
 <style>
+    .stApp {
+        background-color: #12091F;
+        color: #F4F0FF;
+    }
+    [data-testid="stSidebar"] {
+        background-color: #1B0D2B;
+    }
+    [data-testid="stHeader"] {
+        background-color: rgba(18, 9, 31, 0.94);
+    }
+    [data-testid="stMarkdownContainer"],
+    [data-testid="stCaptionContainer"] {
+        color: #E4DDF2;
+    }
     .main-header {
         font-size: 2.2rem;
         font-weight: 700;
-        color: #1E3A8A;
+        color: #D8A7FF;
         margin-bottom: 0.2rem;
     }
     .sub-header {
         font-size: 1.05rem;
-        color: #4B5563;
+        color: #C5A5E8;
         margin-bottom: 1.5rem;
     }
     .citation-card {
-        background-color: #F3F4F6;
-        border-left: 4px solid #3B82F6;
+        background-color: #251238;
+        color: #F4F0FF;
+        border-left: 4px solid #B44CFF;
         padding: 10px 14px;
         border-radius: 4px;
         margin-bottom: 8px;
     }
     .abstention-badge {
-        background-color: #FEF3C7;
-        color: #92400E;
+        background-color: #45205F;
+        color: #F0CCFF;
         padding: 6px 12px;
         border-radius: 4px;
         font-weight: 600;
         display: inline-block;
         margin-bottom: 10px;
+    }
+    [data-testid="stChatMessage"] {
+        background-color: #1A0F29;
+        border: 1px solid #512978;
+    }
+    [data-testid="stChatInput"] textarea,
+    [data-testid="stTextInput"] input,
+    [data-testid="stSelectbox"] [data-baseweb="select"] > div {
+        background-color: #251238;
+        color: #F4F0FF;
+        border-color: #8748B8;
+    }
+    [data-testid="stButton"] button {
+        background-color: #451D68;
+        color: #F4F0FF;
+        border: 1px solid #A64DDB;
+    }
+    [data-testid="stButton"] button:hover {
+        background-color: #652A91;
+        border-color: #D8A7FF;
+        color: #FFFFFF;
+    }
+    [data-baseweb="tab"] {
+        color: #D8C8EA;
+    }
+    [data-baseweb="tab"][aria-selected="true"] {
+        color: #D8A7FF;
+    }
+    [data-testid="stExpander"] {
+        background-color: #1B0D2B;
+        border: 1px solid #512978;
     }
 </style>
 """, unsafe_allow_html=True)
